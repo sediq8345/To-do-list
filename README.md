@@ -10,6 +10,8 @@ This project marks my initial journey into web development, focusing on getting 
 - **CSS**: Applied styling to enhance the appearance and layout.
 - **JavaScript**: Utilized for dynamic interactions and DOM manipulation.
 
-Contributions are welcome! If you have any suggestions or improvements, please feel free to make a pull request.
+## Contributions
+
+Contributions are welcome! If you have any suggestions or improvements, please feel free to make a pull request. Don't forget to create it in your own branch.
 
 **Thank you**

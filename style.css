@@ -5,10 +5,29 @@
     box-sizing: border-box;
 }
 
+@keyframes gradientShift {
+    0% {
+        background: linear-gradient(to top left, #153677, #4e085f);
+    }
+    25% {
+        background: linear-gradient(to top left, #4e085f, #153677);
+    }
+    50% {
+        background: linear-gradient(to top left, #153677, #4e085f);
+    }
+      75% {
+        background: linear-gradient(to top left, #4e085f, #153677);
+    }
+      100% {
+        background: linear-gradient(to top left, #153677, #4e085f);
+    }
+}
+
 main {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    animation: gradientShift 5s infinite;
+    background-size: 400% 400%;
     padding: 10px;
 }
 
@@ -73,11 +92,30 @@ input {
     padding: 10px;   
 }
 
+@keyframes buttonColorShift {
+    0% {
+        background: #ff5945;
+    }
+    25% {
+        background: #ff8c00;
+    }
+    50% {
+        background: #ff5945;
+    }
+      75% {
+        background: #ff8c00;
+    }
+      100% {
+        background: #ff5945;
+    }
+    
+}
+
 button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    animation: buttonColorShift 5s infinite;
     color: #ffffff;
     font-size: 16px;
     cursor: pointer;
